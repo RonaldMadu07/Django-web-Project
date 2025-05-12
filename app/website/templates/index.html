@@ -1,0 +1,437 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+     <title>~SolaRe~</title>
+     <!--
+
+    Template 2106 Soft Landing
+
+	http://www.tooplate.com/view/2106-soft-landing
+
+    -->
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+     <meta name="description" content="">
+     <meta name="keywords" content="">
+     <meta name="team" content="">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+     <link rel="stylesheet" href="{% static 'website/css/bootstrap.min.css' %}">
+     <link rel="stylesheet" href="{% static 'website/css/owl.carousel.css' %}">
+     <link rel="stylesheet" href="{% static 'website/css/owl.theme.default.min.css' %}">
+     <link rel="stylesheet" href="{% static 'website/css/font-awesome.min.css' %}">
+
+     <!-- MAIN CSS -->
+     <link rel="stylesheet" href="{% static 'website/css/tooplate-style.css' %}">
+
+</head>
+
+<body>
+
+     <!-- PRE LOADER -->
+     <section class="preloader">
+          <div class="spinner">
+
+               <span class="spinner-rotate"></span>
+
+          </div>
+     </section>
+
+
+     <!-- MENU -->
+     <section class="navbar custom-navbar navbar-fixed-top" role="navigation">
+          <div class="container">
+     
+               <div class="navbar-header">
+                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                         <span class="icon icon-bar"></span>
+                         <span class="icon icon-bar"></span>
+                         <span class="icon icon-bar"></span>
+                    </button>
+     
+                    <!-- lOGO TEXT HERE -->
+                    <a href="index.html" class="navbar-brand"><strong>~SolaRe~</strong></a>
+               </div>
+     
+               <!-- MENU LINKS -->
+               <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                         <li><a href="#home" class="smoothScroll">Home</a></li>
+                         <li><a href="#feature" class="smoothScroll">Features</a></li>
+                         <li><a href="#about" class="smoothScroll">About us</a></li>
+                         <li><a href="#pricing" class="smoothScroll">Pricing</a></li>
+                         <li><a href="#contact" class="smoothScroll">Contact</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                         <li><a href="#">Say hello - <span>r4540737@gmail.com</span></a></li>
+                    </ul>
+               </div>
+     
+          </div>
+     </section>
+
+
+     <!-- FEATURE -->
+     <section id="home" data-stellar-background-ratio="0.5">
+          <div class="overlay"></div>
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-offset-3 col-md-6 col-sm-12">
+                         <div class="home-info">
+                              <h1>welcome to <strong>~SolaRe~</strong></h1>
+                              <h3>We help you manage your website successfully</h3>
+                              <h4 style="color: white;">To get started, help us know you better!</h4>
+                              <form action="{% url 'form' %}" method="get" class="online-form">
+                                                                      
+                                   <button type="submit" class="form-control" style="margin-right: 25%;">Get started</button>
+                              </form>
+                         </div>
+                    </div>
+
+               </div>
+          </div>
+     </section>
+
+
+     <!-- FEATURE -->
+     <section id="feature" data-stellar-background-ratio="0.5">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-12 col-sm-12">
+                         <div class="section-title">
+                              <h1>What you get</h1>
+                         </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-6">
+                         <ul class="nav nav-tabs" role="tablist">
+                              <li class="active"><a href="#tab01" aria-controls="tab01" role="tab"
+                                        data-toggle="tab">Responsive</a></li>
+
+                              <li><a href="#tab02" aria-controls="tab02" role="tab" data-toggle="tab">Mobile</a></li>
+
+                              <li><a href="#tab03" aria-controls="tab03" role="tab" data-toggle="tab">Support</a></li>
+                         </ul>
+
+                         <div class="tab-content">
+                              <div class="tab-pane active" id="tab01" role="tabpanel">
+                                   <div class="tab-pane-item">
+                                        <h2>Minimal Design</h2>
+                                        <p>Our services allow us to manage your website. Transforming it from a website with Minimal Design to
+                                             an even more eyecatching website.
+                                        </p>
+                                   </div>
+                                   <div class="tab-pane-item">
+                                        <h2>Easy to use</h2>
+                                        <p>With our user-friendly management of your website, we make it more easier for the users to make requests and get What they want. Creating maximum user satifaction!</p>
+                                   </div>
+                              </div>
+
+
+                              <div class="tab-pane" id="tab02" role="tabpanel">
+                                   <div class="tab-pane-item">
+                                        <h2>Compatible Browsers</h2>
+                                        <p>A part of our objective is to ensure that the website in our care is multi browser compatible, to enable access
+                                             to the website from different search engines and web browsers.
+                                        </p>
+                                   </div>
+                                   <div class="tab-pane-item">
+                                        <h2>User Friendly</h2>
+                                        <p>
+                                             Designed according to your needs.</p>
+                                   </div>
+                                   <div class="tab-pane-item">
+                                        <h2>HTML5 & CSS3</h2>
+                                        <p>We provide our services using more updated versions of the html and css, seeing to it that the users
+                                             get the best experience. 
+                                        </p>
+                                   </div>
+                              </div>
+
+                              <div class="tab-pane" id="tab03" role="tabpanel">
+                                   <div class="tab-pane-item">
+                                        <h2>Quick Support</h2>
+                                        <p>We support the owner in managing their websites, offering help in areas such as error fixing, maintenance and frequent updates. 
+                                        </p>
+                                   </div>
+                                   <div class="tab-pane-item">
+                                        <h2>Managed Stuffs</h2>
+                                        <p>As far as management goes, we provide the tools and environment to it easier for both owner and users.</p>
+                                   </div>
+                              </div>
+                         </div>
+
+                    </div>
+
+                    <div class="col-md-6 col-sm-6">
+                         <div class="feature-image">
+                              <img src="{% static 'website/images/feature-mockup.png' %}" class="img-responsive"
+                                   alt="Thin Laptop">
+                         </div>
+                    </div>
+
+               </div>
+          </div>
+     </section>
+
+
+     <!-- ABOUT -->
+     <section id="about" data-stellar-background-ratio="0.5">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-offset-3 col-md-6 col-sm-12">
+                         <div class="section-title">
+                              <h1>Professional Team for you</h1>
+                         </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4">
+                         <div class="team-thumb">
+                              <img src="{% static 'website/images/destiny.jpg' %}" class="img-responsive" alt="Andrew Orange">
+                              <div class="team-info team-thumb-up">
+                                   <h2>Bishop Destiny</h2>
+                                   <small>Art Director</small>
+                                   <p>The man behind the designs with a taste for quality. Capable of bringing the best out of your website
+                                        through design. A beautiful website attracts more users. This man knows how to do it!
+                                   </p>
+                              </div>
+                         </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4">
+                         <div class="team-thumb">
+                              <div class="team-info team-thumb-down">
+                                   <h2>Mr Banjo</h2>
+                                   <small>Senior Manager</small>
+                                   <p>Experienced software engineer and certified DevOPs Engineer with the ability to handle the management of your webpages and collective
+                                        website. You can leave it all to him.
+                                   </p>
+                              </div>
+                              <img src="{% static 'website/images/MrBanjo.jpg' %}" class="img-responsive" alt="Catherine Soft">
+                         </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4">
+                         <div class="team-thumb">
+                              <img src="{% static 'website/images/ronaldo.jpg' %}" class="img-responsive" alt="Jack Wilson">
+                              <div class="team-info team-thumb-up">
+                                   <h2>Madu Ronald</h2>
+                                   <small>CEO / Founder</small>
+                                   <p>An aspiring young man who has taken the initiative to provide these services, reducing the stress on the 
+                                        owners of these websites.
+                                   </p>
+                              </div>
+                         </div>
+                    </div>
+
+               </div>
+          </div>
+     </section>
+
+
+     <!-- TESTIMONIAL -->
+     <section id="testimonial" data-stellar-background-ratio="0.5">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-6 col-sm-12">
+                         <div class="testimonial-image"></div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-12">
+                         <div class="testimonial-info">
+
+                              <div class="section-title">
+                                   <h1>What People Say</h1>
+                              </div>
+
+                              <div class="owl-carousel owl-theme">
+                                   <div class="item">
+                                        <h3>I must say, managing my website on my own has'nt really been easy. but with these guys on the job. It has been a stress-free
+                                             journey.
+                                        </h3>
+                                        <div class="testimonial-item">
+                                             <img src="{% static 'website/images/tst-image1.jpg' %}" class="img-responsive" alt="Michael">
+                                             <h4>Michael</h4>
+                                        </div>
+                                   </div>
+
+                                   <div class="item">
+                                        <h3>All i want to say is thank you to SolaRe for improving what my website can offer.
+                                            </h3>
+                                        <div class="testimonial-item">
+                                             <img src="{% static 'website/images/tst-image2.jpg' %}" class="img-responsive" alt="Sofia">
+                                             <h4>Sofia</h4>
+                                        </div>
+                                   </div>
+
+                                   <div class="item">
+                                        <h3>Creating a website is one step, maintenance is another. With SolaRe you can sit back and relax
+                                             as they help maintain your website.
+                                        </h3>
+                                        <div class="testimonial-item">
+                                             <img src="{% static 'website/images/tst-image3.jpg' %}" class="img-responsive" alt="Monica">
+                                             <h4>Monica</h4>
+                                        </div>
+                                   </div>
+                              </div>
+
+                         </div>
+                    </div>
+
+               </div>
+          </div>
+     </section>
+
+
+     <!-- PRICING -->
+     <section id="pricing" data-stellar-background-ratio="0.5">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-12 col-sm-12">
+                         <div class="section-title">
+                              <h1>Choose any plan</h1>
+                         </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                         <div class="pricing-thumb">
+                              <div class="pricing-title">
+                                   <h2>Student</h2>
+                              </div>
+                              <div class="pricing-info">
+                                   <p>20 Responsive Designs</p>
+                                   <p>10 Dashboards</p>
+                                   <p>1 TB Storage</p>
+                                   <p>6 TB Bandwidth</p>
+                                   <p>24-hour Support</p>
+                              </div>
+                              <div class="pricing-bottom">
+                                   <span class="pricing-dollar">$200/mo</span>
+                                   <a href="#" class="section-btn pricing-btn">Register now</a>
+                              </div>
+                         </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                         <div class="pricing-thumb">
+                              <div class="pricing-title">
+                                   <h2>Business</h2>
+                              </div>
+                              <div class="pricing-info">
+                                   <p>50 Responsive Designs</p>
+                                   <p>30 Dashboards</p>
+                                   <p>2 TB Storage</p>
+                                   <p>12 TB Bandwidth</p>
+                                   <p>15-minute Support</p>
+                              </div>
+                              <div class="pricing-bottom">
+                                   <span class="pricing-dollar">$350/mo</span>
+                                   <a href="#" class="section-btn pricing-btn">Register now</a>
+                              </div>
+                         </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                         <div class="pricing-thumb">
+                              <div class="pricing-title">
+                                   <h2>Professional</h2>
+                              </div>
+                              <div class="pricing-info">
+                                   <p>100 Responsive Designs</p>
+                                   <p>60 Dashboards</p>
+                                   <p>5 TB Storage</p>
+                                   <p>25 TB Bandwidth</p>
+                                   <p>1-minute Support</p>
+                              </div>
+                              <div class="pricing-bottom">
+                                   <span class="pricing-dollar">$550/mo</span>
+                                   <a href="#" class="section-btn pricing-btn">Register now</a>
+                              </div>
+                         </div>
+                    </div>
+
+               </div>
+          </div>
+     </section>
+
+
+     <!-- CONTACT -->
+     <section id="contact" data-stellar-background-ratio="0.5">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-offset-1 col-md-10 col-sm-12">
+                    <form id="contact-form" role="form" action="{% url 'appreciation' %}" method="POST">
+                         {% csrf_token %}
+                              <div class="section-title">
+                                   <h1>Say hello to us</h1>
+                              </div>
+
+                              <div class="col-md-4 col-sm-4">
+                                   <input type="text" class="form-control" placeholder="Full name" name="name"
+                                        required="">
+                              </div>
+                              <div class="col-md-4 col-sm-4">
+                                   <input type="email" class="form-control" placeholder="Email address" name="email"
+                                        required="">
+                              </div>
+                              <div class="col-md-4 col-sm-4">
+                                   <input type="submit" class="form-control" name="send message" value="Send Message">
+                              </div>
+                              <div class="col-md-12 col-sm-12">
+                                   <textarea class="form-control" rows="8" placeholder="Your message" name="message"
+                                        required=""></textarea>
+                              </div>
+                         </form>
+                    </div>
+
+               </div>
+          </div>
+     </section>
+
+
+     <!-- FOOTER -->
+     <footer id="footer" data-stellar-background-ratio="0.5">
+          <div class="container">
+               <div class="row">
+
+                    <div class="copyright-text col-md-12 col-sm-12">
+                         <div class="col-md-6 col-sm-6">
+                              <p>Copyright &copy; 2018 Company Name - Design:
+                                   <a rel="nofollow" href="{% static 'website/http://tooplate.com' %}">Tooplate</a>
+                              </p>
+                         </div>
+
+                         <div class="col-md-6 col-sm-6">
+                              <ul class="social-icon">
+                                   <li><a href="#" class="fa fa-facebook-square" attr="facebook icon"></a></li>
+                                   <li><a href="#" class="fa fa-twitter"></a></li>
+                                   <li><a href="#" class="fa fa-instagram"></a></li>
+                              </ul>
+                         </div>
+                    </div>
+
+               </div>
+          </div>
+     </footer>
+
+
+     <!-- SCRIPTS -->
+     <script src="{% static 'website/js/jquery.js' %}"></script>
+     <script src="{% static 'website/js/bootstrap.min.js' %}"></script>
+     <script src="{% static 'website/js/jquery.stellar.min.js' %}"></script>
+     <script src="{% static 'website/js/owl.carousel.min.js' %}"></script>
+     <script src="{% static 'website/js/smoothscroll.js' %}"></script>
+     <script src="{% static 'website/js/custom.js' %}"></script>
+
+</body>
+
+</html>
